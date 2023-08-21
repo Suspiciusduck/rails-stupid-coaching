@@ -1,0 +1,15 @@
+<div class="container-lg">
+  <h1>Stupid Coaching</h1>
+
+  <blockquote class="pl-1 border-start border-5 ps-2">
+    <p><%= params[:answer] %></p>
+    <p>- You</p>
+  </blockquote>
+
+  <blockquote class="pl-1 bg-warning opacity-25 border-start border-5 ps-2">
+  <p class="fw-bold"><%= @answer %></p>
+  <p>- Your coach</p>
+  </blockquote>
+
+  <%= link_to "Retourner au questionnaire", ask_path %>
+</div>
